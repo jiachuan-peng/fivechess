@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/black.png</file>
+        <file>images/white.png</file>
+        <file>images/btnBG.png</file>
+        <file>images/btnBG_hover.png</file>
+        <file>images/btnBG_press.png</file>
+        <file>images/btnBG_disable.png</file>
+        <file>images/backGround2.jpg</file>
+        <file>images/backGround3.png</file>
+        <file>images/backGround4.png</file>
+        <file>sound/win.mp3</file>
+        <file>sound/clock.mp3</file>
+        <file>sound/press.mp3</file>
+        <file>sound/start.mp3</file>
+        <file>images/happydog.png</file>
+        <file>images/chessBoard2.jpg</file>
+        <file>images/backGround5-2.png</file>
+        <file>images/bg.png</file>
+        <file>images/AI.png</file>
+        <file>images/beijing.png</file>
+        <file>images/title2.jpg</file>
+        <file>images/winner.png</file>
+        <file>images/lose.png</file>
+        <file>sound/victory.mp3</file>
+        <file>sound/playingbgm.mp3</file>
+        <file>sound/winner.mp3</file>
+        <file>sound/vic.mp3</file>
+        <file>images/move.gif</file>
+        <file>images/wel.gif</file>
+        <file>sound/Blose.mp3</file>
+        <file>sound/Bstart.mp3</file>
+        <file>sound/Bwin.mp3</file>
+    </qresource>
+</RCC>

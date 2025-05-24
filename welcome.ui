@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>welcome</class>
+ <widget class="QMainWindow" name="welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>登录与欢迎界面</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ResourceFile.qrc">
+    <normaloff>:/images/happydog.png</normaloff>:/images/happydog.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>-20</y>
+      <width>311</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="wel">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>欢迎来到五子棋游戏</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="guize">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>规则介绍</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="us">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>关于我们</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="game">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>进入游戏</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>-160</y>
+      <width>511</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/images/backGround.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="happy">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>120</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>100</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>欢迎欢迎！！！</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="moving">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>160</y>
+      <width>421</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>widget</zorder>
+   <zorder>happy</zorder>
+   <zorder>label_2</zorder>
+   <zorder>moving</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="ResourceFile.qrc"/>
+ </resources>
+ <connections/>
+</ui>

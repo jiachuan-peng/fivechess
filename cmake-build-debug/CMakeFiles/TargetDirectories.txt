@@ -1,0 +1,3 @@
+C:/Users/HP/Downloads/FiveChessGame-master/cmake-build-debug/CMakeFiles/FiveChessGame_master.dir
+C:/Users/HP/Downloads/FiveChessGame-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Downloads/FiveChessGame-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
